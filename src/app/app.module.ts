@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { RectangleComponent } from './rectangle/rectangle.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     CalculatorComponent,
     DataBindingComponent,
+    RectangleComponent,
   ],
   imports: [
     BrowserModule,
