@@ -11,6 +11,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { RectangleComponent } from './rectangle/rectangle.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { RectangleComponent } from './rectangle/rectangle.component';
     CalculatorComponent,
     DataBindingComponent,
     RectangleComponent,
+    DirectivesComponent,
   ],
   imports: [
     BrowserModule,
