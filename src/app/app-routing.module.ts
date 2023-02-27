@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { WishComponent } from './wish/wish.component';
 
 const routes: Routes = [
   {path:'login',component:LoginComponent},
@@ -16,7 +18,10 @@ const routes: Routes = [
     {path:'data-binding',component:DataBindingComponent},
     {path:'calculator',component:CalculatorComponent},
     {path:'rectangle',component:RectangleComponent},
-    {path:'directives',component:DirectivesComponent}
+    {path:'directives',component:DirectivesComponent},
+    {path:'registration',component:RegistrationComponent},
+    {path:'wish',component:WishComponent}
+    
   ]},
   {path:'',component:LoginComponent},
   {path:'**', component:PagenotfoundComponent}

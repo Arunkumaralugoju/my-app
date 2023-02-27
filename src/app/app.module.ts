@@ -12,6 +12,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { WishComponent } from './wish/wish.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { DirectivesComponent } from './directives/directives.component';
     DataBindingComponent,
     RectangleComponent,
     DirectivesComponent,
+    RegistrationComponent,
+    WishComponent,
   ],
   imports: [
     BrowserModule,
