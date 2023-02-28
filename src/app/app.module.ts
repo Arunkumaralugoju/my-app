@@ -14,6 +14,8 @@ import { RectangleComponent } from './rectangle/rectangle.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { WishComponent } from './wish/wish.component';
+import { CartComponent } from './cart/cart.component';
+import { GradegggComponent } from './gradeggg/gradeggg.component';
 
 
 @NgModule({
@@ -29,6 +31,9 @@ import { WishComponent } from './wish/wish.component';
     DirectivesComponent,
     RegistrationComponent,
     WishComponent,
+    CartComponent,
+    
+    GradegggComponent,
   ],
   imports: [
     BrowserModule,

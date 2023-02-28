@@ -10,9 +10,9 @@ export class DirectivesComponent {
   public names:string[]=["arun","varun","kiran","tarun"];
   public states:string[]=["telangana","andhra","kerala","karnataka"];
   public users:any=[
-    {name:'abe', phone:'97878994',},
-    {name:'kdnnj', phone:'97xx78994',},
-    {name:'aoooooo', phone:'7878994',},
+    {name:'abe', phone:'97878994',marks:23,age:12},
+    {name:'kdnnj', phone:'97xx78994',marks:40,age:23},
+    {name:'aoooooo', phone:'7878994', marks:80,age:45},
   ]
   public products:any=[
     {name:'pen', price:'20', rating:2},
@@ -22,6 +22,7 @@ export class DirectivesComponent {
     {name:'ac', price:'100000', rating:5},
 
   ]
+  public today:any=new Date();
 
 
 }

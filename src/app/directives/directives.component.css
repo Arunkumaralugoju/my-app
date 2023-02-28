@@ -6,3 +6,12 @@
     background-color: rgb(234, 242, 85);
     text-align: center;
 }
+.minor{
+    color: red;
+    background-color: blue;
+}
+.maojor{
+    color: green;
+    background-color: yellow;
+
+}
