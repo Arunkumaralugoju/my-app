@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PhonesService } from '../phones.service';
 
 @Component({
   selector: 'app-phones',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./phones.component.css']
 })
 export class PhonesComponent {
+  public phones:any=[];
+  constructor(private _phoneService:PhonesService){
+    this.phones= _phoneService.phones;
+
+  }
 
 }

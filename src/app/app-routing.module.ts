@@ -10,6 +10,7 @@ import { GradegggComponent } from './gradeggg/gradeggg.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PhonesComponent } from './phones/phones.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { WishComponent } from './wish/wish.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
     {path:'wish',component:WishComponent},
     {path:'cart',component:CartComponent},
     {path:'gradeggg',component:GradegggComponent},
-    {path:'cars',component:CarsComponent}
+    {path:'cars',component:CarsComponent},
+    {path:'phones',component:PhonesComponent}
 
     
   ]},
