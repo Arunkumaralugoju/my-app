@@ -18,6 +18,12 @@ import { CartComponent } from './cart/cart.component';
 import { GradegggComponent } from './gradeggg/gradeggg.component';
 import { CarsComponent } from './cars/cars.component';
 import { PhonesComponent } from './phones/phones.component';
+import { UsersComponent } from './users/users.component';
+import{HttpClientModule} from '@angular/common/http';
+import { VehiclesComponent } from './vehicles/vehicles.component';
+import { ProductsComponent } from './products/products.component';
+import { MemesComponent } from './memes/memes.component';
+
 
 
 @NgModule({
@@ -38,11 +44,17 @@ import { PhonesComponent } from './phones/phones.component';
     GradegggComponent,
          CarsComponent,
          PhonesComponent,
+         UsersComponent,
+         VehiclesComponent,
+         ProductsComponent,
+         MemesComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

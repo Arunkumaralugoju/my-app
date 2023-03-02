@@ -11,8 +11,11 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { PhonesComponent } from './phones/phones.component';
+import { ProductsComponent } from './products/products.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { UsersComponent } from './users/users.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
 import { WishComponent } from './wish/wish.component';
 
 const routes: Routes = [
@@ -28,10 +31,14 @@ const routes: Routes = [
     {path:'cart',component:CartComponent},
     {path:'gradeggg',component:GradegggComponent},
     {path:'cars',component:CarsComponent},
-    {path:'phones',component:PhonesComponent}
+    {path:'phones',component:PhonesComponent},
+    {path:'users',component:UsersComponent},
+    {path:'vehicles',component:VehiclesComponent},
+    {path:'products',component:ProductsComponent}
 
     
   ]},
+  
   {path:'',component:LoginComponent},
   {path:'**', component:PagenotfoundComponent}
 
