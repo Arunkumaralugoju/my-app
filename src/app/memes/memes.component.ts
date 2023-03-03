@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MemesService } from '../memes.service';
 
 @Component({
   selector: 'app-memes',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./memes.component.css']
 })
 export class MemesComponent {
+  public memes:any=[];
+  constructor(private _memesService:MemesService){
+      _memesService.getmemes().subscribe(
+        (data:any)=>{
+          this.memes=data;        }
+      ),
+      (err:any)=>{
+        alert("internal server error");
+      }
+      }
 
-}
+  }
+
+

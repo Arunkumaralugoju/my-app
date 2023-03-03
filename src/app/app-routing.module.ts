@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccountsComponent } from './accounts/accounts.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CarsComponent } from './cars/cars.component';
 import { CartComponent } from './cart/cart.component';
@@ -9,6 +10,7 @@ import { DirectivesComponent } from './directives/directives.component';
 import { GradegggComponent } from './gradeggg/gradeggg.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { MemesComponent } from './memes/memes.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { PhonesComponent } from './phones/phones.component';
 import { ProductsComponent } from './products/products.component';
@@ -34,7 +36,9 @@ const routes: Routes = [
     {path:'phones',component:PhonesComponent},
     {path:'users',component:UsersComponent},
     {path:'vehicles',component:VehiclesComponent},
-    {path:'products',component:ProductsComponent}
+    {path:'products',component:ProductsComponent},
+    {path:'memes',component:MemesComponent},
+    {path:'accounts',component:AccountsComponent}
 
     
   ]},
