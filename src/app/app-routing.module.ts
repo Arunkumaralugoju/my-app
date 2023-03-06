@@ -38,7 +38,8 @@ const routes: Routes = [
     {path:'vehicles',component:VehiclesComponent},
     {path:'products',component:ProductsComponent},
     {path:'memes',component:MemesComponent},
-    {path:'accounts',component:AccountsComponent}
+    {path:'accounts',component:AccountsComponent},
+    {path:'activity',component:AccountsComponent}
 
     
   ]},

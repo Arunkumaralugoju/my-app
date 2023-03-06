@@ -24,6 +24,7 @@ import { VehiclesComponent } from './vehicles/vehicles.component';
 import { ProductsComponent } from './products/products.component';
 import { MemesComponent } from './memes/memes.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { ActivityComponent } from './activity/activity.component';
 
 
 
@@ -50,6 +51,7 @@ import { AccountsComponent } from './accounts/accounts.component';
          ProductsComponent,
          MemesComponent,
          AccountsComponent,
+         ActivityComponent,
   
   ],
   imports: [
