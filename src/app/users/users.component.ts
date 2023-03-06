@@ -44,5 +44,17 @@ export class UsersComponent {
 
     )
   }
+  page(no:number){
+    this._usersService.getPagedUsers(no,10).subscribe(
+  
+      (data:any)=>{
+        this.users=data;
+      },
+      (err:any)=>{
+        alert("internal server error");
+      }
+
+    )
+  }
 
 }

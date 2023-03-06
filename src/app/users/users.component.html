@@ -16,7 +16,7 @@
         <option >asc</option>
         <option >desc</option>
 </select>
-<button class="btn btn-warning" (click)="sort()">submit</button>
+<button class="btn btn-warning" (click)="sort()">sort</button>
 <table class="table table-dark">
     <thead>
         <tr>
@@ -41,3 +41,10 @@
         </tr>
     </tbody>
 </table>
+<ul class="pagination">
+
+    <li class="page-item" (click)="page(1)"><a class="page-link" >1</a></li>
+    <li class="page-item" (click)="page(2)"><a class="page-link" >2</a></li>
+    <li class="page-item"(click)="page(3)"><a class="page-link" >3</a></li>
+
+  </ul>

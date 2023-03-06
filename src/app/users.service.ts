@@ -12,7 +12,7 @@ export class UsersService {
 
   }
   getUsers():Observable<any>{
-    return this._httpClient.get(this.URL);
+    return this._httpClient.get(this.URL+"?limit=10&page=1");
   }
   getFilteredUsers(term:string):Observable<any>{
     return this._httpClient.get(this.URL+"?filter="+term);
