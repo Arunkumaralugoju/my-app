@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
 import { UsersService } from '../users.service';
 
 @Component({
@@ -56,5 +57,17 @@ export class UsersComponent {
 
     )
   }
+  delete(id:string){
+    this._usersService.deleteUser(id).subscribe(
+      (data:any)=>{
+        alert("deleted succesfull");
+        location.reload();
+      },
+      (err:any)=>{
+        alert("internal server error");
+      }
+    )
+  }
+
 
 }
