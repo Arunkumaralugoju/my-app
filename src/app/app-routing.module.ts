@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AccountsComponent } from './accounts/accounts.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CarsComponent } from './cars/cars.component';
+import { CreateUserComponent } from './create-user/create-user.component';
 import { CartComponent } from './cart/cart.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
@@ -39,7 +40,8 @@ const routes: Routes = [
     {path:'products',component:ProductsComponent},
     {path:'memes',component:MemesComponent},
     {path:'accounts',component:AccountsComponent},
-    {path:'activity',component:AccountsComponent}
+    {path:'activity',component:AccountsComponent},
+    {path:'create-user',component:CreateUserComponent},
 
     
   ]},

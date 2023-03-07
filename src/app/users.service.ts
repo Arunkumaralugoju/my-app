@@ -29,5 +29,8 @@ getPagedUsers(page:number,limit:number):Observable<any>{
 deleteUser(id:string):Observable<any>{
   return this._httpClient.delete(this.URL+"/"+id);
 }
+createUser(data:any):Observable<any>{
+  return this._httpClient.post(this.URL,data);
+}
 
 }
